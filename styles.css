@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    font-family: Raleway, Calibri;
+    margin: 0;
+    padding: 0;
+    background-color:#EEEEEE;
+}
+
+#name {
+    text-align: center;
+    font-color: blue;
+    padding: 20px;
+    margin-bottom: 2%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);    
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg); 
+    -webkit-transform: rotate(0deg);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#name:active{
+    transform: rotate(375deg);
+    -ms-transform: rotate(375deg); 
+    -webkit-transform: rotate(375deg);
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+#name h1 {
+    font-weight: normal; 
+
+    font-size: 3em;
+    margin: 0;
+    color:  #000080;
+    font-family: "Raleway";
+}
+
+#nav {
+    display: flex;
+    justify-content: center; /* Centers navigation links */
+    flex-wrap: wrap; /* Allows links to wrap onto a new line if needed */
+    gap: 10px; /* Adds space between links */
+}
+
+#nav a {
+    background-color: white;
+    display: inline-block;
+    width: 20%; /* Relative width ensures responsiveness */
+    max-width: 200px; /* Prevents links from becoming too wide */
+    min-width: 150px; /* Prevents links from shrinking too much */
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    margin: 2% 1%; /* Use percentage-based spacing */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s; 
+}
+
+#nav a:hover {
+/*    background-color: rgba(0, 0, 0, 0.05);*/
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+#nav a.selected {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+#main {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s; 
+}
+
+#main:hover{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+#photo-img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 200px; 
+    border-radius: 10%; 
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+}
