@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Calibri);
+@import url(https://fonts.googleapis.com/css?family=Carlito);
 
 body {
-    font-family: "Calibri";
+    font-family: "Carlito";
     margin: 0;
     padding: 0;
     background-color:#EEEEEE;
@@ -82,7 +83,7 @@ body {
     padding: 20px;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.2s, color 0.2s, box-shadow 0.2s; 
-    font-family: "Calibri";
+    font-family: "Carlito";
 }
 
 #main:hover{
